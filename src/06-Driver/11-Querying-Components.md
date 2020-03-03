@@ -8,6 +8,6 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m Driver.QueryingComponents -t assets/driver/querying-components.js
-parcel serve assets/driver/querying-components.html -o querying-components--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/driver/querying-components.html -o querying-components--parcelified.html --open
 # After the page opens, check your browser's console to see the messages
 ```

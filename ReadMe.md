@@ -22,7 +22,7 @@ npm i
 ```
 If you choose this approach, all aftermentioned commond like `spago ...` and `parcel ...` shall be prefix with `npm run`. e.g.
 - `npm run spago bundle-app -m ...`
-- `npm run parcel serve ...`
+- `npm run node node_modules/parcel/bin/cli.js serve...`
 
 
 ## Target Audience

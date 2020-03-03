@@ -83,5 +83,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m ParentChildRelationships.ChildlikeComponents.All.WithHalogenTypes -t assets/parent-child-relationships/childlike-components/all--with-halogen-types.js
-parcel serve assets/parent-child-relationships/childlike-components/all--with-halogen-types.html -o child-all--with-halogen-types--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/parent-child-relationships/childlike-components/all--with-halogen-types.html -o child-all--with-halogen-types--parcelified.html --open
 ```

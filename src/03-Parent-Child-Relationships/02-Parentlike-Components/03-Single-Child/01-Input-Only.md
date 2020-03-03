@@ -10,5 +10,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m ParentChildRelationships.ParentlikeComponents.SingleChild.InputOnly -t assets/parent-child-relationships/parentlike-components/single-child/parent-input-only.js
-parcel serve assets/parent-child-relationships/parentlike-components/single-child/parent-input-only.html -o parent-input-only--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/parent-child-relationships/parentlike-components/single-child/parent-input-only.html -o parent-input-only--parcelified.html --open
 ```

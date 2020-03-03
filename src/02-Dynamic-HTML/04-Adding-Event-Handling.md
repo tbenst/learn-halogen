@@ -62,5 +62,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m DynamicHtml.AddingEventHandling -t assets/dynamic-html/adding-event-handling.js
-parcel serve assets/dynamic-html/adding-event-handling.html -o adding-event-handling--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/dynamic-html/adding-event-handling.html -o adding-event-handling--parcelified.html --open
 ```

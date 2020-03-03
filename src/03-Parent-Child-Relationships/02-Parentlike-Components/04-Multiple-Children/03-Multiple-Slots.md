@@ -10,5 +10,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m ParentChildRelationships.ParentlikeComponents.MultipleChildren.MultipleSlots -t assets/parent-child-relationships/parentlike-components/multiple-children/multi-child-slots.js
-parcel serve assets/parent-child-relationships/parentlike-components/multiple-children/multi-child-slots.html -o multi-child-slots--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/parent-child-relationships/parentlike-components/multiple-children/multi-child-slots.html -o multi-child-slots--parcelified.html --open
 ```

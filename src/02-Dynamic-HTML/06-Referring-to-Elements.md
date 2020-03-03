@@ -60,5 +60,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m DynamicHtml.ReferringToElements -t assets/dynamic-html/referring-to-elements.js
-parcel serve assets/dynamic-html/referring-to-elements.html -o referring-to-elements--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/dynamic-html/referring-to-elements.html -o referring-to-elements--parcelified.html --open
 ```

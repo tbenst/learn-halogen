@@ -8,5 +8,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m Driver.DisposingComponents -t assets/driver/disposing-components.js
-parcel serve assets/driver/disposing-components.html -o disposing-components--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/driver/disposing-components.html -o disposing-components--parcelified.html --open
 ```

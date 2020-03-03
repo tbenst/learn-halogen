@@ -44,7 +44,7 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m StaticHTML.StaticHTML -t assets/static-html/static-html.js
-parcel serve assets/static-html/static-html.html -o static-html--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/static-html/static-html.html -o static-html--parcelified.html --open
 ```
 
 ## Automatic Reload

@@ -66,12 +66,12 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m GoingDeeper.ADifferentMonad.ReaderT -t assets/going-deeper/a-different-monad--readert.js
-parcel serve assets/going-deeper/a-different-monad--readert.html -o a-different-monad--readert--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/going-deeper/a-different-monad--readert.html -o a-different-monad--readert--parcelified.html --open
 ```
 
 ### Run
 
 ```bash
 spago bundle-app -m GoingDeeper.ADifferentMonad.Run -t assets/going-deeper/a-different-monad--run.js
-parcel serve assets/going-deeper/a-different-monad--run.html -o a-different-monad--run--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/going-deeper/a-different-monad--run.html -o a-different-monad--run--parcelified.html --open
 ```

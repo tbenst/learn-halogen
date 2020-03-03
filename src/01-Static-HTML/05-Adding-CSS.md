@@ -83,5 +83,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m StaticHTML.AddingCSS -t assets/static-html/adding-css.js
-parcel serve assets/static-html/adding-css.html -o adding-css--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/static-html/adding-css.html -o adding-css--parcelified.html --open
 ```

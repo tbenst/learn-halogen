@@ -14,5 +14,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m GoingDeeper.ForkingThreads -t assets/going-deeper/forking-threads.js
-parcel serve assets/going-deeper/forking-threads.html -o going-deeper/forking-threads--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/going-deeper/forking-threads.html -o going-deeper/forking-threads--parcelified.html --open
 ```

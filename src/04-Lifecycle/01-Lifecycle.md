@@ -74,12 +74,12 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m Lifecycle.Child -t assets/lifecycle/lifecycle-child.js
-parcel serve assets/lifecycle/lifecycle-child.html -o lifecycle-child--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/lifecycle/lifecycle-child.html -o lifecycle-child--parcelified.html --open
 ```
 
 ### Parent Lifecycle Component
 
 ```bash
 spago bundle-app -m Lifecycle.Parent -t assets/lifecycle/lifecycle-parent.js
-parcel serve assets/lifecycle/lifecycle-parent.html -o lifecycle-parent--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/lifecycle/lifecycle-parent.html -o lifecycle-parent--parcelified.html --open
 ```

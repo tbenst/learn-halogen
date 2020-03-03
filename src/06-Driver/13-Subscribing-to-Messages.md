@@ -12,7 +12,7 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m Driver.SubscribingToMessages -t assets/driver/subscribing-to-messages.js
-parcel serve assets/driver/subscribing-to-messages.html -o subscribing-to-messages--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/driver/subscribing-to-messages.html -o subscribing-to-messages--parcelified.html --open
 # After the page opens, check your browser's console to see what gets
 # logged to the console
 ```

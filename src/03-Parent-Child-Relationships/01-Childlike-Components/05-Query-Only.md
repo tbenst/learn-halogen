@@ -13,5 +13,5 @@ To compile the next file and view its results in the browser, use these instruct
 
 ```bash
 spago bundle-app -m ParentChildRelationships.ChildlikeComponents.QueryOnly -t assets/parent-child-relationships/childlike-components/query-only.js
-parcel serve assets/parent-child-relationships/childlike-components/query-only.html -o child-query-only--parcelified.html --open
+node node_modules/parcel/bin/cli.js serve assets/parent-child-relationships/childlike-components/query-only.html -o child-query-only--parcelified.html --open
 ```
